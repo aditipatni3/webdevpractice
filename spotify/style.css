@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@700&display=swap');/*to use font family,first import font*/
+
+body{
+    background-color: aliceblue;
+}
+*{
+ margin: 0;
+ padding: 0;   
+}
+nav{
+    font-family: 'Andika', sans-serif;
+
+}
+nav ul{
+    display: flex; /*horizaontally displays nav*/
+    list-style-type: none;/*removes the bullet points*/
+    height: 60px; 
+    background-color: black;
+    color: white;
+    align-items: center;
+    
+}
+.brand img{
+    width: 49px;
+    height: 49px;
+}
+.brand{
+    display: flex;/*brings everything in a row*/
+    align-items: center;
+
+}
+nav ul li{
+    padding: 0 10px;
+    
+}
+.bottom{
+    position:sticky;
+    background-color: black;
+    height:150px;/*this is the  height of the black sticky band*/
+    bottom: 0;
+    display: flex; /*we've made this a flex box to design the progress bar*/
+    text-align: center; 
+    justify-content: center;
+    color: aliceblue;
+    flex-direction: column;
+}
+.container{
+    min-height: 69vh;/*this is the height of the container in which the sticky band is in*/
+    background-color: black;
+    color:white;
+    display: flex;
+    width: 75%;
+    margin: 20px auto ;
+    border-radius: 20px;
+    padding: 30px;
+    background-image: url('ab.jpg');
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+   
+}
+#myprogressbar{
+    width: 1000px;
+    padding-left: 50%;
+    padding-right: 50%;
+    justify-content: center;/* ?*/
+    text-align: center;/*?*/
+    
+}
+.icons{
+   
+    margin-top: 15px;
+}
+.icons i{
+    cursor: pointer;
+    padding: 2px 5px;
+}
+.songlist{
+    
+}
+.songitem{
+    
+}
